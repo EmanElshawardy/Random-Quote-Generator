@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes App</title>
+  <link rel="stylesheet" href="./css/all.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card text-center position-absolute w-50 top-50 start-50 translate-middle">
+      <div class="card-body">
+        <h5 class="card-title fw-bold fs-3">Quote of the Day</h5>
+      </div>
+      <div class="d-flex justify-content-center mb-3">
+        <div class="p-3"><i class="fa-solid fa-quote-left"></i></div>
+        <div class="p-3">
+          <p id="quote" class="card-text">
+            To be yourself in a world that is constantly trying to make you
+            something else is the greatest accomplishment.
+          </p>
+          <p id="author" class="card-text text-end opacity-50">
+            ― Ralph Waldo Emerson
+          </p>
+        </div>
+        <div class="p-3"><i class="fa-solid fa-quote-right"></i></div>
+      </div>
+      <div class="card-footer text-body-secondary">
+        <a href="#" onclick="getQuote()" class="btn btn-style float-end fw-medium rounded-pill">New Quote</a>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="js/js.js"></script>
+</body>
+
+</html>

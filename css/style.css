@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #181c34;;
+}
+.btn-style{
+  background-color: #181c34;
+  color: #fff;
+}
+.btn-style:hover{
+  border: 1px solid #181c34;
+  color: #181c34;
+}
